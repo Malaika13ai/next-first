@@ -19,7 +19,7 @@ function Trusty() {
    
          <Image src="/man.png" alt="man" height={396} width={344} className='h-88 w-70  '/>
     <div className='rounded-full bg-[#0D5D41] w-70 h-67  absolute -z-1 top-15'/>
-    <Image src="/vector.svg" alt="arrow-twist" height={79} width={73} className='absolute top-35 right-70'/>
+    <Image src="/vector.png" alt="arrow-twist" height={79} width={73} className='absolute top-35 right-70'/>
          <div className='bg-white rounded-xl p-3.5 absolute top-3 right-55 w-44.5'>
             <div className='flex gap-2 mb-0.5 items-center'>
                 <Image src="/elipse.png" height={36} width={36} />
