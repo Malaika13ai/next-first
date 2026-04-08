@@ -35,9 +35,9 @@ const data =[ {
 ]
 
   return (
-    <section className='pl-41 bg-[url("/default.png")] h-auto pt-5'>
-      <div className='pr-41 flex justify-between items-center'>
-        <p className='font-semibold text-[38px]'>What you are looking for?</p>
+    <section className='lg:pl-41 md:pl-15 pl-4 bg-[url("/default.png")] h-auto pt-5'>
+      <div className='lg:pr-41 md:pr-15 pr-4 flex justify-between items-center flex-col sm:flex-row'>
+        <p className='font-semibold md:text-[38px] sm:text-[30px] text-[26px]'>What you are looking for?</p>
     <button className='flex items-center py-3.75 px-6.25 gap-1 text-[18px] font-medium border border-[#04DA8D] rounded-4xl h-10.75'>See More <FaArrowRight className='w-2.75 h-3.25 text-[#17253F]'/></button>
       </div>
 

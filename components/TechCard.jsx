@@ -14,7 +14,7 @@ function TechCard({face,name}) {
             <p className='text-[15px] font-normal text-[#000000]/50'>techwizards.com</p>
         </div>
       </div>
-<div className='flex gap-3 mb-5'>
+<div className='flex gap-3 mb-5 items-center'>
        <Ratings    starStyle='text-[#FFFFFF] bg-[#00B57A] p-0.5'/>
        <p className='text-[16px] '>5.0</p>
 </div>

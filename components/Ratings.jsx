@@ -10,7 +10,7 @@ const stars = Array(5).fill(0)
         
              <Image
                  key={index}
-                 src="/subtract.png"
+                 src="/Subtract.png"
                  height={13}
                  width={13}
                  className={starStyle}

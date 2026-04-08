@@ -19,14 +19,14 @@ function Card({ cardIcon, cardText, cardHead, index,cardStyle,topStyle }) {
           />
         </div>
         
-        <p className='font-bold text-[#17253F] text-[24px] '>
+        <p className='font-bold text-[#17253F] md:text-[20px] text-[24px] lg:text-[24px] '>
           {cardText}
         </p>
       </div>
 
    
       <div className='flex gap-2 items-center mb-1'>
-        <p className='font-bold text-[18px] text-[#000000] '>
+        <p className='font-bold md:text-[16px] text-[18px] lg:text-[18px] text-[#000000] '>
           {cardHead}
         </p>
         <div className="shrink-0">

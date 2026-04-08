@@ -12,7 +12,7 @@ function Discover() {
     ];
 
     return (
-        <div className='pb-20 pt-70'>
+        <div className='pb-20 md:pt-70 pt-180'>
             <p className='font-semibold text-[38px] mb-15 text-center'>Discover What People Like and Dislike</p>
             
             <div className='pl-34 mb-8'>
