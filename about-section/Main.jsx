@@ -5,7 +5,7 @@ import React from 'react'
 function Main() {
   return (
   
-    <div className='relative bg-[url("/default.png")] flex flex-col items-center pt-32 md:pt-50 px-6 lg:px-40 bg-white'>
+    <div className='relative bg-[url("/default.png")] flex flex-col items-center pt-32 md:pt-50 px-6 lg:px-40 md:px-22 bg-white'>
       
   
       <p className='font-semibold xl:text-[45px] lg:text-[41px] md:text-[35px] text-[28px] text-center leading-[1.3] max-w-225 text-[#17253F] mb-10'>
@@ -13,11 +13,11 @@ function Main() {
       </p>
 
 
-      <div className='flex flex-col md:flex-row justify-between items-center w-full gap-6 md:gap-20 mb-10'>
+      <div className='flex flex-col md:flex-row justify-between items-center w-full gap-6 md:gap-10 mb-10'>
         <p className='text-[24px] md:text-[32px] font-semibold leading-[1.3] text-[#17253F] '>
           Meet Our Founder & CEO
         </p>
-        <p className='text-[14px] md:text-[16px] lg:w-135 md:w-80 leading-[1.6] text-[#17253F]'>
+        <p className='text-[14px] md:text-[16px] lg:w-135 md:w-90 leading-[1.6] text-[#17253F]'>
           Our vision is to become the universal symbol of trust, empowering consumers to make confident, informed buying decisions while allowing businesses to credibly signal the quality of their services and to gain actionable insights to improve them.
         </p>
       </div>

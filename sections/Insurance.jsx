@@ -90,7 +90,7 @@ function Insurance() {
                 Top Verified Banks
             </p>
             
-            {/* Marquee Section */}
+          
             <div className='lg:pl-34 md:pl-15 pl-6 mb-20 relative z-10'>
                 <Marquee pauseOnHover={true} speed={40}>
                     {banksData.map((item, index) => (

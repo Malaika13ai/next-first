@@ -30,7 +30,6 @@ function Trusty() {
         <div className='rounded-full bg-[#0D5D41] xl:w-70 xl:h-67 lg:w-60 lg:h-60 absolute z-0 top-15'/>
         <Image src="/Vector.png" alt="arrow-twist" height={79} width={73} className='absolute xl:top-35 xl:right-70 md:top-30 md:right-55 md:w-15 md:h-16 lg:w-18 lg:h-20 z-20'/>
         
-        {/* Review Card */}
         <div className='bg-white rounded-xl p-3.5 absolute lg:top-3 lg:right-55 md:top-0 md:right-50 xl:w-44.5 lg:w-35 md:w-30 z-20'>
           <div className='flex gap-2 mb-0.5 items-center md:w-25 w-30 xl:w-40'>
             <Image src="/elipse.png" height={36} width={36} alt="elipse" />
@@ -40,7 +39,6 @@ function Trusty() {
           <Ratings starStyle='text-[#FFFFFF] bg-[#00B57A]/50 p-0.5'/>
         </div>
 
-        {/* Delicious Tag */}
         <div className='rounded-4xl bg-[#04DA8D] px-5 py-2.5 absolute top-15 -right-5 z-20'>
           <p className='text-[10px] text-[#17253F] font-medium mb-1'>It was Delicious!</p>
           <Ratings starStyle='text-[#FFFFFF] bg-[#17253F] p-0.5'/>

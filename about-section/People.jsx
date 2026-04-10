@@ -13,7 +13,7 @@ const People = () => {
 
   return (
   
-    <section className="pt-40 pb-16  bg-white rounded-t-[50px] relative z-10 -mt-20"> 
+    <section className="pt-15 pb-16  bg-white rounded-t-[50px] relative z-10 "> 
       
       <div className="max-w-7xl mx-auto text-center px-6 md:px-20">
         <h2 className="text-3xl md:text-[36px] font-bold text-black mb-12">
@@ -21,7 +21,7 @@ const People = () => {
         </h2>
       </div>
 
-    <div className="lg:pr-34 md:pr-22 pr-6">
+    <div className="lg:pl-34 md:pl-22 pl-6">
       <Marquee 
         speed={50} 
         gradient={false} 
@@ -30,7 +30,7 @@ const People = () => {
         {teamMembers.map((member) => (
           <div 
             key={member.id} 
-            className="group relative overflow-hidden rounded-[20px] h-[350px] w-[280px] flex-shrink-0 mx-3 cursor-pointer"
+            className="group relative overflow-hidden rounded-[20px] h-87.5 w-70 shrink-0 mx-3 cursor-pointer"
           >
             <img 
               src={member.image} 
