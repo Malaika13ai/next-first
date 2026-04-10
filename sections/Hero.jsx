@@ -10,7 +10,7 @@ function Hero() {
        <Image src="/twisted-arrow.png" width={81} height={87} alt="arrow" className='absolute xl:right-68 xl:bottom-75 lg:right-50 lg:bottom-85 h-auto w-auto hidden lg:block'/>
      <p className='xl:text-[24px] lg:text-[22px] text-center text-[20px]  text-[#17253F] font-medium mt-2 mb-9'>Millions of unbiased reviews. Trusted by 700 Million+ users</p>
      <SearchBar searchText="Categories"/>
-     <Image src="/john.png" width={222} height={237} alt="john" className='absolute xl:right-15 lg:right-5 lg:bottom-30 xl:bottom-20 xl:h-59 lg:h-55 xl:w-55 lg:w-51 hidden lg:block'/>
+     <Image src="/John.png" width={222} height={237} alt="john" className='absolute xl:right-15 lg:right-5 lg:bottom-30 xl:bottom-20 xl:h-59 lg:h-55 xl:w-55 lg:w-51 hidden lg:block'/>
 
  </main>
   )

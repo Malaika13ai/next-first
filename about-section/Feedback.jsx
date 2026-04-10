@@ -5,7 +5,7 @@ import React from 'react'
 function Feedback() {
   return (
     <div className='mx-7.5 bg-[#05442E] xl:px-34 lg:px-24 md:px-15 px-6 mb-3 pt-40 md:pt-75 pb-15 flex justify-between flex-col md:flex-row items-center gap-10 xl:gap-0 rounded-2xl'>
-       <Image src="/ring.png" height={400} width={400} alt="ring" className='xl:w-100 xl:h-100 lg:w-90 lg:h-80 md:w-70 md:h-65'/>
+       <Image src="/Ring.png" height={400} width={400} alt="ring" className='xl:w-100 xl:h-100 lg:w-90 lg:h-80 md:w-70 md:h-65'/>
             <div className='flex items-center flex-col md:items-start'>
         <p className="font-semibold text-[32px] md:text-[24px] lg:text-[32px] text-[#FFFFFF] mb-4 xl:w-125 lg:w-110 md:w-80 leading-tight text-center md:text-left">
        We're Trustyfeedback, Committed to Growing Your Business!
