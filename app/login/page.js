@@ -15,7 +15,7 @@ function page() {
 <div className='w-[50%] relative bg-[#05442E] pt-20 px-9 rounded-tl-2xl rounded-bl-2xl flex flex-col items-center justify-between '>
 <div>
    <p className='font-bold text-[28px] text-[#FFFFFF] text-center w-98'>Be Part of the Millions Giving Feedback Daily!</p>
-               <Image src="/Vector.png" alt="arrow-twist" height={79} width={73} className='absolute top-100 left-70 lg:w-18 lg:h-20 z-20'/>
+               <Image src="/Vector.png" alt="arrow-twist" height={79} width={73} className='absolute top-40 left-20 lg:w-18 lg:h-20 z-20'/>
 
     </div>
 
