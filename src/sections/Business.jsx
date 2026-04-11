@@ -9,10 +9,10 @@ function Business() {
   return (
     <div className="mx-7 bg-[#17253F]  rounded-2xl px-34 py-20 flex justify-center gap-14 items-center   flex-col md:flex-row">
       <div>
-        <p className="font-semibold text-[32px] text-[#FFFFFF] mb-4 w-125 leading-tight">
+        <p className="font-semibold text-center md:text-left sm:text-[32px] lg:text-[28px] xl:text-[32px] text-[24px] text-[#FFFFFF] mb-4 xl:w-125 lg:w-110 w-80 sm:w-100 leading-tight">
           Own a Business? Sign Up Now & Gain Genuine Reviews!
         </p>
-        <p className="font-normal text-[16px] text-[#FFFFFF] mb-7 leading-[1.3] w-130">
+        <p className="font-normal text-center md:text-left xl:text-[16px] text-[14px] sm:text-[16px] md:text-[14px] text-[#FFFFFF] mb-7 leading-[1.3] xl:w-130 lg:w-110 w-80 sm:w-100">
           Register with us to build trust through authentic reviews. Showcase
           your services, engage with your audience, and grow your reputation
           with real feedback.
@@ -24,9 +24,9 @@ function Business() {
       </div>
 
       <div className="relative">
-        <Image src="/business.png" height={371} width={360} alt="business" className="xl:w-90 xl:h-92 lg:w-80 lg:h-80 md:w-60 md:h-60 w-60 h-60 sm:w-90 sm:h-92"/>
+        <Image src="/business.png" height={371} width={360} alt="business" className="xl:w-85 xl:h-92 lg:w-80 lg:h-80 w-70 h-70 md:w-65 md:h-65 sm:w-90 sm:h-92"/>
 
-        <div className="absolute top-15 -right-26 bg-[#FFFFFF] rounded-2xl px-3 pt-2 pb-4 text-left w-[183px] shadow-xl ">
+        <div className="absolute top-15 -right-26 bg-[#FFFFFF] rounded-2xl px-3 pt-2 pb-4 text-left xl:w-45 lg:w-41 sm:w-45 md:w-35 w-32 shadow-xl ">
           
           <div className="bg-[#EFF3F7] border border-[#17253F33] rounded-xl flex justify-center items-center h-22.5 mb-2 px-4 gap-3">
            
@@ -34,7 +34,7 @@ function Business() {
 
        
           <div className='flex gap-2 items-center mb-0.5'>
-            <p className='font-bold text-[14px] text-[#000000]'>
+            <p className='font-bold text-[12px] sm:text-[14px] md:text-[12px lg:text-[14px]] text-[#000000]'>
               Your Business
             </p>
             <div className="shrink-0">
@@ -59,11 +59,11 @@ function Business() {
           </div>
         </div>
 
-        <div className="bg-[#FFFFFF] rounded-[69px] px-5.5 py-4 flex gap-2 items-center absolute bottom-13 -left-22">
+        <div className="bg-[#FFFFFF] rounded-[69px] lxl:px-5.5 xl:py-4 px-2 py-2 flex gap-2 items-center absolute bottom-13 -left-22">
             <Image src="/medal.png" alt="medal" height={35} width={35}/>
             <div>
-                <p className="text-[20px] text-[#04DA8D] font-bold">Top Rated</p>
-                <p className="text-[15px] text-[#1A1A1A] font-normal">10k+ Real Reviews</p>
+                <p className="lg:text-[20px] text-[16px] sm:text-[20px] md:text-[14px] text-[#04DA8D] font-bold">Top Rated</p>
+                <p className="lg:text-[15px] text-[12px] sm:text-[15px] md:text-[12px] text-[#1A1A1A] font-normal">10k+ Real Reviews</p>
             </div>
         </div>
       </div>

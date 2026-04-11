@@ -7,7 +7,7 @@ import React from 'react'
 function Trusty() {
   return (
 
-    <div className='xl:mx-34 lg:mx-25 mx-auto md:mx-15 bg-[#05442E] rounded-2xl sm:pl-15 sm:pr-9 px-5 md:pt-5 pt-10 flex md:justify-between gap-5 md:gap-0 md:flex-row flex-col items-center md:w-[80%] w-[90%] min-h-[320px] lg:h-83 relative z-20  mb-10'>
+    <div className='xl:mx-34 lg:mx-25 mx-auto md:mx-15 bg-[#05442E] rounded-2xl sm:pl-15 sm:pr-9 px-5 md:pt-5 pt-10 flex md:justify-between gap-10 md:gap-0 md:flex-row flex-col items-center md:w-[80%] w-[90%] min-h-[320px] lg:h-83 relative z-20  mb-10'>
       
       <div className="z-10">
         <p className='font-semibold xl:text-[32px] lg:text-[28px] sm:text-[28px] md:text-[24px] text-[22px] text-center md:text-left text-[#FFFFFF] mb-2 xl:w-125 lg:w-100 md:w-70 leading-tight'>
@@ -29,7 +29,7 @@ function Trusty() {
         <div className='rounded-full bg-[#0D5D41] xl:w-70 xl:h-67 lg:w-60 lg:h-60 absolute z-0 top-15'/>
         <Image src="/Vector.png" alt="arrow-twist" height={79} width={73} className='absolute xl:top-35 xl:right-70 md:top-30 md:right-55 md:w-15 md:h-16 lg:w-18 lg:h-20 z-20'/>
         
-        <div className='bg-white rounded-xl p-3.5 absolute lg:top-3 lg:right-55 md:top-0 md:right-50 xl:w-44.5 lg:w-35 md:w-30 z-20'>
+        <div className='bg-white rounded-xl p-3.5 absolute lg:top-3 lg:right-55 md:top-0 md:right-50 -top-20 right-40 xl:w-44.5 lg:w-35 md:w-30 z-20'>
           <div className='flex gap-2 mb-0.5 items-center md:w-25 w-30 xl:w-40'>
             <Image src="/elipse.png" height={36} width={36} alt="elipse" />
             <p className='font-medium text-[14px] md:text-[12px] lg:text-[14px] text-[#000000] w-25'>How was your order?</p>
