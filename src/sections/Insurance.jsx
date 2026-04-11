@@ -108,7 +108,7 @@ function Insurance() {
             </div>
 
           
-            <div className="absolute left-0 -bottom-140 right-0 flex justify-center">
+            <div className="absolute left-0 -bottom-140 md:-bottom-60 right-0 flex justify-center">
                 <Trusty />
             </div>
         </div>
