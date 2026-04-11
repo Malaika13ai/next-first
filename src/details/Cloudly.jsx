@@ -1,9 +1,9 @@
-import Ratings from '@/components/Ratings'
+import Ratings from '@/src/components/Ratings'
 import Image from 'next/image'
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 import { CiLink } from "react-icons/ci";
-import DetailCard from '@/components/DetailCard';
+import DetailCard from '@/src/components/DetailCard';
 import { HiOutlineMail } from "react-icons/hi";
 import { CiPhone } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import SearchBar from '@/components/SearchBar'
+import SearchBar from '@/src/components/SearchBar'
 
 function Hero() {
   return (

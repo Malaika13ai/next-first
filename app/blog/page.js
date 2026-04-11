@@ -1,6 +1,6 @@
-import Buy from '@/blog-section/Buy'
-import Perspective from '@/blog-section/Perspective'
-import Reviews from '@/blog-section/Reviews'
+import Buy from '@/src/blog-section/Buy'
+import Perspective from '@/src/blog-section/Perspective'
+import Reviews from '@/src/blog-section/Reviews'
 import React from 'react'
 
 function page() {

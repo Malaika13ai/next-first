@@ -1,6 +1,6 @@
 "use client"
-import Ratings from '@/components/Ratings'
-import SearchBar from '@/components/SearchBar'
+import Ratings from '@/src/components/Ratings'
+import SearchBar from '@/src/components/SearchBar'
 import Image from 'next/image'
 import React, { useState } from 'react'
   import { FaStar, FaCamera, FaArrowRight } from 'react-icons/fa';

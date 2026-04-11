@@ -1,6 +1,6 @@
 "use client"
-import Button from "@/components/Button";
-import Ratings from "@/components/Ratings";
+import Button from "@/src/components/Button";
+import Ratings from "@/src/components/Ratings";
 import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";

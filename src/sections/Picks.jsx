@@ -1,5 +1,5 @@
 "use client"
-import Card from '@/components/Card'
+import Card from '@/src/components/Card'
 import React, { useState, useEffect } from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";

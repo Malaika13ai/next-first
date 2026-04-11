@@ -1,5 +1,5 @@
-import CategoryCard from '@/components/CategoryCard';
-import SearchBar from '@/components/SearchBar'
+import CategoryCard from '@/src/components/CategoryCard';
+import SearchBar from '@/src/components/SearchBar'
 import Image from 'next/image'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'

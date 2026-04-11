@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import ReviewCard from '@/components/ReviewCard';
+import ReviewCard from '@/src/components/ReviewCard';
 
 function Other() {
     const reviewData = [

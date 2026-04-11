@@ -6,7 +6,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import ReviewCard from '@/components/ReviewCard';
+import ReviewCard from '@/src/components/ReviewCard';
 
 function Reviews() {
   const reviewData = [
@@ -48,7 +48,7 @@ function Reviews() {
         ))}
       </Swiper>
 
-      {/* Dedicated Pagination Container - Guaranteed no overlap */}
+  
       <div className="custom-pagination mt-12 text-center"></div>
 
       <style jsx global>{`

@@ -1,4 +1,4 @@
-import SearchBar from '@/components/SearchBar'
+import SearchBar from '@/src/components/SearchBar'
 import Image from 'next/image'
 import React from 'react'
 

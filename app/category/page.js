@@ -1,5 +1,5 @@
-import Look from '@/category-section/Look'
-import Recent from '@/sections/Recent'
+import Look from '@/src/category-section/Look'
+import Recent from '@/src/sections/Recent'
 import React from 'react'
 
 function page() {

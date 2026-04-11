@@ -1,4 +1,4 @@
-import Cloudly from '@/details/Cloudly'
+import Cloudly from '@/src/details/Cloudly'
 
 import React from 'react'
 

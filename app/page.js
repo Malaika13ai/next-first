@@ -1,10 +1,10 @@
-import Business from "@/sections/Business";
-import Discover from "@/sections/Discover";
-import Hero from "@/sections/Hero";
-import Insurance from "@/sections/Insurance";
-import Looking from "@/sections/Looking";
-import Picks from "@/sections/Picks";
-import Recent from "@/sections/Recent";
+import Business from "@/src/sections/Business";
+import Discover from "@/src/sections/Discover";
+import Hero from "@/src/sections/Hero";
+import Insurance from "@/src/sections/Insurance";
+import Looking from "@/src/sections/Looking";
+import Picks from "@/src/sections/Picks";
+import Recent from "@/src/sections/Recent";
 
 
 export default function Home() {

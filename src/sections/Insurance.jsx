@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef } from 'react'
-import Card from '@/components/Card';
+import Card from '@/src/components/Card';
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -33,7 +33,7 @@ function Insurance() {
      
         <div className='mx-4 md:mx-7 rounded-2xl bg-[#E7F4EF] pb-30 md:pb-20 pt-10 md:pt-20 flex flex-col relative isolate'>
             
-            {/* Header with Custom Navigation */}
+           
             <div className='flex flex-col md:flex-row justify-between items-center px-6 lg:px-34 md:px-15 mb-10 gap-6 relative z-30'>
                 <p className='font-semibold text-[28px] md:text-[38px] text-center md:text-left'>
                     Best in Travel Insurance Company
@@ -55,7 +55,7 @@ function Insurance() {
                 </div>
             </div>
 
-            {/* Responsive Swiper Section */}
+          
             <div className='px-6 md:px-15 lg:px-34 mb-20 relative z-20'>
                 <Swiper
                     onSwiper={(swiper) => (swiperRef.current = swiper)}

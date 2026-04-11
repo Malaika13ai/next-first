@@ -58,7 +58,7 @@ const Testimonials = () => {
         {reviews.map((review) => (
           <SwiperSlide key={review.id} className="pt-12 pb-6">
             <div className="relative">
-              {/* Fixed Floating Badge: Added w-fit and adjusted -top-6 */}
+          
               <div className="absolute -top-9 left-6 right-auto flex w-fit items-center gap-4 bg-white rounded-full px-5 py-2.5 shadow-lg z-20 border border-gray-100">
                 <div className="flex items-center gap-3">
                   <img src={review.image} alt={review.name} className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover" />

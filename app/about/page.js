@@ -1,10 +1,10 @@
-import Consumer from '@/about-section/Consumer'
-import Feedback from '@/about-section/Feedback'
-import Main from '@/about-section/Main'
-import People from '@/about-section/People'
-import Questions from '@/about-section/Questions'
-import Testimonials from '@/about-section/Testimonial'
-import Recent from '@/sections/Recent'
+import Consumer from '@/src/about-section/Consumer'
+import Feedback from '@/src/about-section/Feedback'
+import Main from '@/src/about-section/Main'
+import People from '@/src/about-section/People'
+import Questions from '@/src/about-section/Questions'
+import Testimonials from '@/src/about-section/Testimonial'
+import Recent from '@/src/sections/Recent'
 import React from 'react'
 
 function page() {

@@ -1,4 +1,4 @@
-import BlogCard from '@/components/BlogCard';
+import BlogCard from '@/src/components/BlogCard';
 import Image from 'next/image';
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";

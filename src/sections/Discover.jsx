@@ -1,5 +1,5 @@
 "use client"
-import TechCard from '@/components/TechCard'
+import TechCard from '@/src/components/TechCard'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
 

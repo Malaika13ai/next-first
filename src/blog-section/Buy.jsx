@@ -7,7 +7,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import ReviewCard from '@/components/ReviewCard';
+import ReviewCard from '@/src/components/ReviewCard';
 
 function Buy() {
     const swiperRef = useRef(null);
@@ -22,13 +22,13 @@ function Buy() {
     ];
 
     return (
-        /* Removed overflow-hidden to prevent clipping card shadows */
+ 
         <div className='mx-4 md:mx-7 rounded-2xl bg-[#E7F4EF] pb-20 pt-10 md:pt-20 flex flex-col'>
             
-            {/* Wrapper for consistent alignment */}
+    
             <div className='px-6 md:px-15 lg:px-34'>
                 
-                {/* Header Section */}
+          
                 <div className='flex flex-col md:flex-row justify-between items-center mb-10 gap-6 relative z-30'>
                     <p className='font-semibold text-[28px] md:text-[38px] text-center md:text-left text-[#17253F]'>
                         Buy With Confidence
@@ -50,7 +50,6 @@ function Buy() {
                     </div>
                 </div>
 
-                {/* Slider Section - No more slidesOffsetBefore or internal padding needed */}
                 <div className='relative z-20'>
                     <Swiper
                         onSwiper={(swiper) => (swiperRef.current = swiper)}
