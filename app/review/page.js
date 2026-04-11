@@ -1,6 +1,6 @@
-import Missions from '@/review-section/Missions'
-import Other from '@/review-section/Other'
-import Scam from '@/review-section/Scam'
+import Missions from '@/src/review-section/Missions'
+import Other from '@/src/review-section/Other'
+import Scam from '@/src/review-section/Scam'
 import React from 'react'
 
 function page() {
