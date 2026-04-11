@@ -15,7 +15,7 @@ function Discover() {
         <div className='pb-20 md:pt-70 pt-180'>
             <p className='font-semibold text-[38px] mb-15 text-center'>Discover What People Like and Dislike</p>
             
-            <div className='pl-34 mb-8'>
+            <div className='pl-6 md:pl-24 lg-34 mb-8'>
                 <Marquee 
                     speed={40} 
                     pauseOnHover={true} 
@@ -28,7 +28,7 @@ function Discover() {
             </div>
 
        
-            <div className='pr-34'>
+            <div className='pr-6 md:pr-14 lg-pr-34'>
                 <Marquee 
                     direction="right" 
                     speed={40} 

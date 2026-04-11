@@ -10,7 +10,7 @@ function Dna() {
     ];
 
   return (
-    <div className='bg-[#E7F4EF] rounded-tl-xl rounded-tr-xl pl-44 pr-44 py-20 '>
+    <div className='bg-[#E7F4EF] rounded-tl-xl rounded-tr-xl xl:px-44 md:px-20 lg:px-12 px-6  py-20 '>
         <div className='flex gap-2 flex-wrap w-full'>
         {featureData.map((item,index)=>(
             <div key={index} className='sm:w-[47%] w-full'>

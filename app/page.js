@@ -16,7 +16,7 @@ export default function Home() {
 <Insurance />
 <Discover/>
 <Business />
-<Recent recentBg='py-20 flex items-center flex-col relative' twistStyle='absolute right-88 top-25' white='text-[#17253F]'/>
+<Recent recentBg='py-20 flex items-center flex-col relative' twistStyle='absolute right-88 hidden lg:block top-25' white='text-[#17253F]'/>
 </>
   );
 }

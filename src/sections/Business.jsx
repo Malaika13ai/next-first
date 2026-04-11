@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Business() {
   return (
-    <div className="mx-7 bg-[#17253F]  rounded-2xl px-34 py-20 flex justify-center gap-14 items-center  ">
+    <div className="mx-7 bg-[#17253F]  rounded-2xl px-34 py-20 flex justify-center gap-14 items-center   flex-col md:flex-row">
       <div>
         <p className="font-semibold text-[32px] text-[#FFFFFF] mb-4 w-125 leading-tight">
           Own a Business? Sign Up Now & Gain Genuine Reviews!
@@ -24,7 +24,7 @@ function Business() {
       </div>
 
       <div className="relative">
-        <Image src="/business.png" height={371} width={360} alt="business" />
+        <Image src="/business.png" height={371} width={360} alt="business" className="xl:w-90 xl:h-92 lg:w-80 lg:h-80 md:w-60 md:h-60 w-60 h-60 sm:w-90 sm:h-92"/>
 
         <div className="absolute top-15 -right-26 bg-[#FFFFFF] rounded-2xl px-3 pt-2 pb-4 text-left w-[183px] shadow-xl ">
           

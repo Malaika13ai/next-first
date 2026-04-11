@@ -6,9 +6,8 @@ import React from 'react'
 
 function Trusty() {
   return (
-    /* Changed to relative and removed the hardcoded top/bottom values. 
-       Using -mt (negative margin) to overlap the component above it. */
-    <div className='xl:mx-34 lg:mx-25 mx-auto md:mx-15 bg-[#05442E] rounded-2xl sm:pl-15 sm:pr-9 px-5 md:pt-5 pt-10 flex md:justify-between gap-5 md:gap-0 md:flex-row flex-col items-center md:w-[80%] w-[90%] min-h-[320px] lg:h-80 relative z-20 -mt-32 mb-10'>
+
+    <div className='xl:mx-34 lg:mx-25 mx-auto md:mx-15 bg-[#05442E] rounded-2xl sm:pl-15 sm:pr-9 px-5 md:pt-5 pt-10 flex md:justify-between gap-5 md:gap-0 md:flex-row flex-col items-center md:w-[80%] w-[90%] min-h-[320px] lg:h-83 relative z-20  mb-10'>
       
       <div className="z-10">
         <p className='font-semibold xl:text-[32px] lg:text-[28px] sm:text-[28px] md:text-[24px] text-[22px] text-center md:text-left text-[#FFFFFF] mb-2 xl:w-125 lg:w-100 md:w-70 leading-tight'>

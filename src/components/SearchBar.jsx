@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
 function SearchBar({searchText}) {
     const [isOpen,setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const dropDownData = [
     <div className='border border-[#E1E3F6] rounded-4xl bg-[#FFFFFF]  flex items-center justify-between h-13 md:h-16'>
         <div className='flex justify-between items-center gap-0.5 sm:gap-1  px-3 md:px-7 relative'>
       <Image src="/category.png" height={20} width={20} alt="cateogory" className='w-3 h-3 md:w-5 md:h-5'/>
-       <span  className='text-[14px] md:text-[16px] text-[#17253F] ml-0.5 cursor-pointer'>{searchText}</span>
+       <span  className='text-[14px] md:text-[16px] text-[#17253F] ml-0.5 cursor-pointer'><Link href="/category">{searchText}</Link></span>
        <Image src="/Chevron.png" height={15} width={15} onClick={toggle} alt="chevron"/>
        {isOpen && (
           <div className='bg-[#04DA8D] rounded-lg p-4  absolute top-10 '>

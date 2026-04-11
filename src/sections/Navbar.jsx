@@ -22,7 +22,7 @@ function Navbar() {
       
         <nav className='hidden lg:gap-4 lg:flex items-center gap-7'>
           <Link href="/write" className='text-[16px] xl:text-[16px] lg:text-[14px] text-[#17253F]'>Write a review</Link>
-          <Link href="#" className='text-[16px]  xl:text-[16px] lg:text-[14px] text-[#17253F]'>How it Works</Link>
+          <Link href="/work" className='text-[16px]  xl:text-[16px] lg:text-[14px] text-[#17253F]'>How it Works</Link>
           <Link href="/about" className='text-[16px]  xl:text-[16px] lg:text-[14px] text-[#17253F]'>About Us</Link>
           <Link href="/blog" className='text-[16px] lg:text-[14px]  xl:text-[16px] text-[#17253F]'>Blog</Link>
           <Link href="/login" className='text-[16px] lg:text-[14px] text-[#17253F]  xl:text-[16px] font-semibold ml-4'>Log In</Link>
@@ -82,7 +82,7 @@ function Navbar() {
           </div>
 
           <Link href="/write"  className='text-lg text-[#17253F] font-medium py-2 border-b border-gray-100'>Write a review</Link>
-          <Link href="#"  className='text-lg text-[#17253F] font-medium py-2 border-b border-gray-100'>How it Works</Link>
+          <Link href="/work"  className='text-lg text-[#17253F] font-medium py-2 border-b border-gray-100'>How it Works</Link>
           <Link href="/about" className='text-lg text-[#17253F] font-medium py-2 border-b border-gray-100'>About Us</Link>
           <Link href="/blog" className='text-lg text-[#17253F] font-medium py-2 border-b border-gray-100'>Blog</Link>
           <Link href="/login" className='text-lg text-[#17253F] font-bold py-2'>Log In</Link>
