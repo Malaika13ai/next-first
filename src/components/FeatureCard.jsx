@@ -16,7 +16,7 @@ const FeatureCard = ({ title, description}) => {
                         {title}
                     </h3>
                     </div>
-                    <p className="text-[#5E6D82] text-[15px] leading-[1.3]">
+                    <p className="text-[#000000] text-[15px] leading-[1.3]">
                         {description}
                     </p>
             

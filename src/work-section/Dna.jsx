@@ -13,7 +13,7 @@ function Dna() {
     <div className='bg-[#E7F4EF] rounded-tl-xl rounded-tr-xl pl-44 pr-44 py-20 '>
         <div className='flex gap-2 flex-wrap w-full'>
         {featureData.map((item,index)=>(
-            <div key={index} className='w-[50%]'>
+            <div key={index} className='sm:w-[47%] w-full'>
             <FeatureCard 
             title={item.title}
             description={item.desc}
